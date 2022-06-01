@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/drawable-v24/border_shape_details.xml" value="0.2115" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/drawable-v24/border_shape_info3.xml" value="0.1795" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/drawable-v24/border_shape_info4.xml" value="0.1795" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/drawable-v24/border_shape_info5.xml" value="0.184" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/drawable-v24/border_shape_info_car.xml" value="0.1" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/drawable-v24/border_shape_info_car_cacel.xml" value="0.1" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/drawable/border_shape.xml" value="0.184" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/drawable/border_shape_details_close_sesion.xml" value="0.1695" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/drawable/border_shape_home.xml" value="0.184" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/drawable/border_shape_info.xml" value="0.2115" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/drawable/border_shape_info2.xml" value="0.1795" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/drawable/border_shape_info_home.xml" value="0.1725" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_home_show_categories.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_inventory_add.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_inventory_add_barcode.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_inventory_add_product.xml" value="0.33" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_inventory_add_search_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_inventory_search_product_by_barcode.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_new_sale_add_to_car.xml" value="0.25" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_new_sales_history.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_new_sales_search_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_product_details.xml" value="0.33" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_sales_add_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_sales_add_product_by_scanner.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_sales_add_product_by_scanner_gv.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_sales_car_add_frequent_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_sales_car_add_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_sales_car_sacanner.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_sales_car_search_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_sales_generate_voucher_frequent_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_sales_scanner.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_sales_search_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_sales_search_product_generate_voucher.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/activity_user_details.xml" value="0.33" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/fragment_biling_opening_closing.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/fragment_billing_summary_day.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/fragment_main_billing.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/fragment_main_home.xml" value="0.25" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/fragment_main_inventory.xml" value="0.5" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/fragment_main_new_sales.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/fragment_main_sales.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/fragment_new_sales_all_products.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/fragment_new_sales_frequents.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/fragment_sales_all_products.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/fragment_sales_frequents.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/fragment_sales_generate_voucher.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/fragment_sales_history.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/listview_inventory_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/listview_sales_product.xml" value="0.5" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/listview_sales_product_addtocar.xml" value="0.25" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/sales_dialog_add_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/layout/spinner_categories.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionB/Floki/AndroidApp/Jarvis/app/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/drawable-v24/bkg_color.xml" value="0.1" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/drawable-v24/border_shape_details.xml" value="0.1" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/drawable-v24/border_shape_info3.xml" value="0.1" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.169" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/drawable/border_shape.xml" value="0.1" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/drawable/border_shape2.xml" value="0.1085" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/drawable/border_shape3.xml" value="0.1055" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/drawable/border_shape_home.xml" value="0.1" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/drawable/border_shape_info.xml" value="0.1" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/drawable/border_shape_info2.xml" value="0.1" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1055" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_billing_summary_day.xml" value="0.25" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_home_show_categories.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_home_show_subcategories.xml" value="0.10416666666666667" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_inventory_add_barcode.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_inventory_add_product.xml" value="0.33" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_inventory_search_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_inventory_search_product_by_barcode.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_new_sale_add_to_car.xml" value="0.2" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_new_sales_search_product.xml" value="0.19010416666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_product_details.xml" value="0.25" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_sales_add_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_sales_add_product_by_scanner.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_sales_add_product_by_scanner_gv.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_sales_car_add_frequent_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_sales_car_add_product.xml" value="0.2" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_sales_car_sacanner.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_sales_car_search_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_sales_generate_voucher_frequent_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_sales_scanner.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_sales_search_product.xml" value="0.1" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_sales_search_product_generate_voucher.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/activity_user_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/custom_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/dimens.xml" value="0.1" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/fragment_biling_opening_closing.xml" value="0.3226337448559671" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/fragment_billing_summary.xml" value="0.33" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/fragment_billing_summary_day.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/fragment_main_billing.xml" value="0.14402173913043478" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/fragment_main_home.xml" value="0.22" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/fragment_main_inventory.xml" value="0.25" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/fragment_main_new_sales.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/fragment_main_sales.xml" value="0.17572463768115942" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/fragment_new_sales_all_products.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/fragment_new_sales_frequents.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/fragment_sales_all_products.xml" value="0.17572463768115942" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/fragment_sales_frequents.xml" value="0.1490036231884058" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/fragment_sales_generate_voucher.xml" value="0.16" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/fragment_sales_history.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/fragment_sales_summary.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/listview_inventory_product.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/listview_sales_product.xml" value="0.33" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/listview_sales_product_addtocar.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/mi_spinnerlist.xml" value="1.4" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/myspinner_background.xml" value="0.14402173913043478" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/register.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/sales_dialog.xml" value="0.25" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/sales_dialog_add_product.xml" value="0.33" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/sales_dialog_edit_consumption.xml" value="0.33" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/sales_new_sale.xml" value="0.22" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/sales_voucher_complete_sale.xml" value="0.5" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/layout/spinner_item.xml" value="0.10416666666666667" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis/app/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/drawable-v24/border_shape_details.xml" value="0.1" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/drawable/border_shape.xml" value="0.1" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/drawable/border_shape_info.xml" value="0.1" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/layout/activity_home_show_categories.xml" value="0.16032608695652173" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/layout/activity_home_show_subcategories.xml" value="0.16032608695652173" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/layout/activity_main.xml" value="0.16032608695652173" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/layout/activity_product_details.xml" value="0.17844202898550723" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/layout/fragment_main_billing.xml" value="0.16032608695652173" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/layout/fragment_main_home.xml" value="0.16032608695652173" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/layout/fragment_main_inventory.xml" value="0.17844202898550723" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/layout/listview_home_categories.xml" value="0.16032608695652173" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/layout/listview_home_custom.xml" value="0.16032608695652173" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/layout/listview_inventory_product.xml" value="0.17844202898550723" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/layout/spinner_categories.xml" value="0.17844202898550723" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/layout/spinner_subcategories.xml" value="0.16032608695652173" />
+        <entry key="..\:/ProgramacionBill/JARVIS/AndroidStudio/Jarvis3/app/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bill/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bill/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.16032608695652173" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

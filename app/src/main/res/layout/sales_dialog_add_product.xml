@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_base"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text=" AGREGAR PRODUCTO"
+            android:textAlignment="center"
+            android:textSize="24dp" />
+
+
+        <EditText
+            android:id="@+id/txt_voucher_number"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+|
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:layout_height="35dp">
+            <TextView
+                android:id="@+id/sale_name_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:contextClickable="false"
+                android:focusable="false"
+                android:text="Coca cola 500 ml"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_sale_type"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:layout_marginTop="15dp"
+            app:ms_padding_top="0dp"
+            app:ms_padding_bottom="0dp"
+            android:layout_gravity="center"
+            app:ms_dropdown_max_height="310dp"
+            app:ms_popup_padding_left="100dp"
+            android:spinnerMode="dropdown"/>
+
+    </LinearLayout>
+
+    <!-- -&#45;&#45;&#45;&#45;&#45;&#45; center -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/sale_spinner_quantity"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                app:ms_padding_top="5dp"
+                app:ms_padding_left="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:padding="0dp"
+                app:ms_popup_padding_left="30dp"
+                app:ms_dropdown_max_height="265dp"
+                android:spinnerMode="dropdown"/>
+
+            <TextView
+                android:id="@+id/txt_unit_package_price"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:clickable="false"
+                android:gravity="center"
+                android:focusable="false"
+                android:text=""
+                android:layout_marginLeft="5dp"
+                android:textAlignment="center"
+                android:background="@color/white"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/txt_subtotal"
+                android:layout_width="90dp"
+                android:layout_height="35dp"
+                android:clickable="false"
+                android:gravity="center"
+                android:focusable="false"
+                android:text=""
+                android:layout_marginLeft="5dp"
+                android:textAlignment="center"
+                android:background="@color/white"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp">
+
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner_sale_BBHH"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:gravity="center"
+                app:ms_padding_top="5dp"
+                app:ms_padding_left="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:padding="0dp"
+                app:ms_dropdown_max_height="265dp"
+                android:spinnerMode="dropdown"/>
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner_amount_BBHH"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                app:ms_padding_top="5dp"
+                app:ms_padding_left="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:padding="0dp"
+                app:ms_dropdown_max_height="265dp"
+                android:spinnerMode="dropdown"/>
+
+            <TextView
+                android:id="@+id/txt_sale_hh"
+                android:layout_width="90dp"
+                android:layout_height="35dp"
+                android:clickable="false"
+                android:gravity="center"
+                android:focusable="false"
+                android:text=""
+                android:layout_marginLeft="5dp"
+                android:textAlignment="center"
+                android:background="@color/white"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="17dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/txt_total_sale"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:clickable="false"
+            android:ems="10"
+            android:gravity="center"
+            android:focusable="false"
+            android:text=""
+            android:textAlignment="center"
+            android:background="@color/white"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="18dp" />
+
+  <!--      <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_type_pay"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            app:ms_padding_top="0dp"
+            app:ms_padding_bottom="0dp"
+            app:ms_dropdown_max_height="310dp"
+            android:spinnerMode="dropdown" />-->
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <Button
+            android:id="@+id/button_pay_sale"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="AGREGAR"
+            android:textAlignment="center"
+            android:background="@color/sales_dialog_color"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/button_cancel_sale"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:text="CANCELAR"
+            android:padding="4dp"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:background="@color/sales_dialog_color"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+<!--    <Spinner android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:drawSelectorOnTop = "true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/placeCity"
+        android:paddingLeft="5dip"
+        android:background="@drawable/myspinner_background" />
+
+    <ImageView android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/spinner"
+        android:layout_alignTop="@+id/spinner"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/down" />-->
+
+
+</LinearLayout>

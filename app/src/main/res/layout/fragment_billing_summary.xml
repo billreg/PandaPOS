@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".billing.BillingSummary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:background="@drawable/border_shape_info"
+            android:layout_height="50dp"
+            android:padding="4dp">
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner_type_sale_summary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                app:ms_padding_top="0dp"
+                app:ms_padding_bottom="0dp">
+
+            </com.jaredrummler.materialspinner.MaterialSpinner>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+  >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                app:cardElevation="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="20dp"
+                    android:padding="20dp"
+                    android:background="@color/color_base_white"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_width="140dp"
+                            android:layout_height="40dp"
+                            android:paddingTop="8dp">
+                            <TextView
+                                android:id="@+id/text_total"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Capital:"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:gravity="right"
+                                android:paddingRight="10dp"
+                                android:layout_gravity="right"/>
+                        </FrameLayout>
+
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:paddingTop="8dp"
+                            android:background="@drawable/border_shape_details">
+                            <TextView android:id="@+id/text_capital"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:gravity="left"
+                                android:paddingLeft="5dp"
+                                android:text=""
+                                android:textSize="17dp" />
+                        </FrameLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_width="140dp"
+                            android:layout_height="40dp"
+                            android:paddingTop="8dp">
+                            <TextView
+                                android:id="@+id/text_total3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Beneficio:"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:gravity="right"
+                                android:paddingRight="10dp"
+                                android:layout_gravity="right"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:paddingTop="8dp"
+                            android:background="@drawable/border_shape_details">
+
+                            <TextView
+                                android:id="@+id/text_benefit"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_gravity="left"
+                                android:gravity="left"
+                                android:paddingLeft="5dp"
+                                android:text=""
+                                android:textSize="17dp" />
+                        </FrameLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_width="140dp"
+                            android:layout_height="40dp"
+                            android:paddingTop="8dp">
+                            <TextView
+                                android:id="@+id/text_total4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Beneficio extra:"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:gravity="right"
+                                android:paddingRight="10dp"
+                                android:layout_gravity="right"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:paddingTop="8dp"
+                            android:background="@drawable/border_shape_details">
+
+                            <TextView
+                                android:id="@+id/text_aditional_sale"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_gravity="left"
+                                android:gravity="left"
+                                android:text=""
+                                android:paddingLeft="5dp"
+                                android:textSize="17dp" />
+                        </FrameLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_width="140dp"
+                            android:layout_height="40dp"
+                            android:paddingTop="8dp">
+                            <TextView
+                                android:id="@+id/text_total2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Total ventas:"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:gravity="right"
+                                android:paddingRight="10dp"
+                                android:layout_gravity="right"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:paddingTop="8dp"
+                            android:background="@drawable/border_shape_details">
+                            <TextView
+                                android:id="@+id/text_total_sales"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_gravity="left"
+                                android:gravity="left"
+                                android:text=""
+                                android:paddingLeft="5dp"
+                                android:textSize="17dp" />
+                        </FrameLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                app:cardElevation="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/color_base_white">
+
+
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:id="@+id/pie_chart_billing"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Realción entre capital y benefício"
+                        android:textAlignment="center"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

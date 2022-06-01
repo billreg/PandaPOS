@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <!--base colors 1-->
+
+    <color name="color_base">#098371</color>
+    <color name="color_base1">#017A68</color>
+    <color name="color_base2">#047060</color>
+    <color name="color_base0">#FFFFFFFF</color>
+    <color name="color_base3">#007A7E</color>
+    <color name="color_base_info">#6B53C9A7</color>
+    <color name="color_base_selected">#657E93</color>
+    <color name="color_icon_main_menu">#FFFFFFFF</color>
+    <color name="color_background_main_menu">#FF368C82</color>
+    <color name="color_text_main_menu">#FFFFFFFF</color>
+    <color name="color_name">#D5022142</color>
+    <color name="color_base_white">#D8E5F3</color>
+    <color name="color_base_white2">#BFD8E5F3</color>
+    <color name="color_base_white3">#BFF2F7FB</color>
+    <color name="color_base_white4">#BF9CA9B3</color>
+    <color name="color_base_header">#84909A</color>
+
+    <color name="color_border_home">#B0BDC8</color>
+    <color name="color_bkg_home">#3942B1A5</color>
+    <color name="color_icon">#68429C</color>
+
+    <!--base colors 2-->
+
+    <!--fondo-->
+<!--    <color name="color_base">#143E63</color>
+    <color name="color_base2">#047060</color>
+    <color name="color_base0">#FFFFFFFF</color>
+    <color name="color_base3">#007A7E</color>
+    <color name="color_base_info">#6B53C9A7</color>
+    <color name="color_base_selected">#657E93</color>
+    <color name="color_icon_main_menu">#FFFFFFFF</color>
+    <color name="color_background_main_menu">#FF368C82</color>
+    <color name="color_text_main_menu">#FFFFFFFF</color>
+    <color name="color_name">#023468</color>
+    <color name="color_base_white">#D8E5F3</color>
+    <color name="color_base_white2">#BFD8E5F3</color>
+    <color name="color_base_header">#84909A</color>-->
+
+    <!--texto-->
+
+
+
+
+
+    <!--HOME colors -->
+
+
+    <!--INVENTORY colors -->
+    <color name="inventory_category_color">#3D6380</color>
+    <color name="inventory_subcategory_color">#4F80A5</color>
+    <color name="inventory_table_header_color">#70ADE3</color>
+    <color name="inventory_volumen_color">#E18F28</color>
+
+    <!--SALES colors -->
+    <color name="sales_category_color">#3D6380</color>
+    <color name="sales_subcategory_color">#4F80A5</color>
+    <color name="sales_table_header_color">#8ABBE6</color>
+    <color name="sales_dialog_color">#838AABCC</color>
+    <color name="sales_generate">#CBDDE6</color>
+    <color name="sales_generate_voucher_color">#CDDEE6</color>
+    <color name="sales_generate_voucher_color2">#EDF1F4</color>
+    <color name="sales_generate_cancel">#DCC872</color>
+    <color name="sales_generate_new">#129A86</color>
+    <color name="sales_voucher_button">#88B1D3</color>
+    <color name="sales_edit_delete">#72DA6C6A</color>
+    <color name="sales_edit_delete2">#72F50A06</color>
+
+    <!--BILLING colors -->
+
+</resources>

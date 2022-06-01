@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newsales.MainNewSales">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:gravity="center_vertical"
+        android:background="@color/color_base">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:paddingTop="0dp">
+
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:padding="1dp">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/button_new_search_product"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Buscar producto"
+                    android:textSize="15dp"
+                    app:chipIcon="@drawable/search"
+                    app:chipBackgroundColor="@color/white"
+                    android:theme="@style/Theme.MaterialComponents.Light" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/button_new_search_by_barcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    app:chipIcon="@drawable/barcode"
+                    app:textStartPadding="0dp"
+                    app:iconStartPadding="5dp"
+                    android:theme="@style/Theme.MaterialComponents.Light" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/button_new_add_to_car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:foregroundGravity="center"
+                    android:paddingRight="2dp"
+                    android:textSize="18dp"
+                    android:theme="@style/Theme.MaterialComponents.Light"
+                    app:chipIcon="@drawable/car"
+                    app:textStartPadding="0dp"
+                    app:iconStartPadding="5dp" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/button_new_sales_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    app:textStartPadding="0dp"
+                    app:iconStartPadding="5dp"
+                    android:theme="@style/Theme.MaterialComponents.Light"
+                    app:chipIcon="@drawable/history" />
+            </com.google.android.material.chip.ChipGroup>
+
+        </HorizontalScrollView>
+
+    </FrameLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs_new_sales"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/color_base"
+        app:tabIndicatorColor="@color/black">
+    </com.google.android.material.tabs.TabLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_layout_new_sales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.MainHome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Cabecera-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/color_base"
+            tools:ignore="MissingConstraints"
+            android:paddingBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="0dp">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/user"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="0dp"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        app:chipBackgroundColor="@color/white"
+
+                        app:chipIcon="@drawable/usero"
+                        app:chipIconSize="20dp"
+                        app:chipIconTint="@color/color_base_header"
+                        app:chipStartPadding="5dp"
+                        app:chipEndPadding="5dp"
+                        app:iconEndPadding="0dp"
+                        app:iconStartPadding="0dp"
+                        app:textEndPadding="0dp"
+                        app:textStartPadding="0dp">
+
+                    </com.google.android.material.chip.Chip>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginRight="60dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elegantTextHeight="false"
+                        android:fontFamily="serif"
+                        android:text="PANDA POS"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="27dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <!--Cuerpo-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_base"
+            android:orientation="vertical">
+
+   <!--         <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:id="@+id/name_business_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elegantTextHeight="false"
+                    android:fontFamily="serif-monospace"
+                    android:text="Ciudad comercio"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+
+                    android:textSize="26dp">
+
+                </TextView>
+
+&lt;!&ndash;
+                <TextView
+                    android:id="@+id/business_type_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif-monospace"
+                    android:text="Minimarket"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+&ndash;&gt;
+
+            </LinearLayout>
+-->
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_shape_home"
+                android:orientation="vertical"
+                android:paddingTop="30dp"
+                android:padding="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:background="@drawable/border_shape"
+                    android:descendantFocusability="blocksDescendants"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="5dp">
+
+                        <com.google.android.material.chip.Chip
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="0dp"
+                            android:theme="@style/Theme.MaterialComponents.Light"
+                            app:chipBackgroundColor="@color/white"
+                            app:chipEndPadding="0dp"
+                            app:chipIcon="@drawable/lista"
+                            app:chipIconSize="30dp"
+                            app:chipStartPadding="0dp"
+                            app:iconEndPadding="0dp"
+                            app:iconStartPadding="0dp"
+                            app:textEndPadding="0dp"
+                            app:textStartPadding="0dp" />
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/categories"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="Seleccionar categorías"
+                        android:textSize="19dp"
+                        android:paddingLeft="5dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingLeft="5dp">
+
+                        <com.google.android.material.chip.Chip
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="0dp"
+                            android:theme="@style/Theme.MaterialComponents.Light"
+                            app:chipBackgroundColor="@color/white"
+                            app:chipEndPadding="0dp"
+                            android:clickable="false"
+                            app:chipIcon="@drawable/siguienteboton"
+                            app:chipIconSize="16dp"
+                            app:chipStartPadding="0dp"
+                            app:iconEndPadding="0dp"
+                            app:iconStartPadding="0dp"
+                            app:textEndPadding="0dp"
+                            app:textStartPadding="0dp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+        <!--        <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_shape"
+                    android:descendantFocusability="blocksDescendants"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:paddingBottom="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="5dp">
+
+                        <com.google.android.material.chip.Chip
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="0dp"
+                            android:theme="@style/Theme.MaterialComponents.Light"
+                            app:chipBackgroundColor="@color/white"
+                            app:chipEndPadding="0dp"
+                            app:chipIcon="@drawable/anadirseleccion"
+                            app:chipIconSize="30dp"
+                            app:chipStartPadding="0dp"
+                            app:iconEndPadding="0dp"
+                            app:iconStartPadding="0dp"
+                            app:textEndPadding="0dp"
+                            app:textStartPadding="0dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/marcas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="Agregar marcas"
+                        android:textSize="19dp"
+                        android:paddingLeft="5dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingLeft="5dp">
+
+                        <com.google.android.material.chip.Chip
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="0dp"
+                            android:theme="@style/Theme.MaterialComponents.Light"
+                            app:chipBackgroundColor="@color/white"
+                            app:chipEndPadding="0dp"
+                            app:chipIcon="@drawable/siguienteboton"
+                            app:chipIconSize="16dp"
+                            app:chipStartPadding="0dp"
+                            app:iconEndPadding="0dp"
+                            app:iconStartPadding="0dp"
+                            app:textEndPadding="0dp"
+                            app:textStartPadding="0dp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_shape"
+                    android:descendantFocusability="blocksDescendants"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:paddingBottom="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="5dp">
+
+                        <com.google.android.material.chip.Chip
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="0dp"
+                            android:theme="@style/Theme.MaterialComponents.Light"
+                            app:chipBackgroundColor="@color/white"
+                            app:chipEndPadding="0dp"
+                            app:chipIcon="@drawable/producto"
+                            app:chipIconSize="30dp"
+                            app:chipStartPadding="0dp"
+                            app:iconEndPadding="0dp"
+                            app:iconStartPadding="0dp"
+                            app:textEndPadding="0dp"
+                            app:textStartPadding="0dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/categoriesrt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="Agregar pedidos"
+                        android:textSize="19dp"
+                        android:paddingLeft="5dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingLeft="5dp">
+
+                        <com.google.android.material.chip.Chip
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="0dp"
+                            android:theme="@style/Theme.MaterialComponents.Light"
+                            app:chipBackgroundColor="@color/white"
+                            app:chipEndPadding="0dp"
+                            app:chipIcon="@drawable/siguienteboton"
+                            app:chipIconSize="16dp"
+                            app:chipStartPadding="0dp"
+                            app:iconEndPadding="0dp"
+                            app:iconStartPadding="0dp"
+                            app:textEndPadding="0dp"
+                            app:textStartPadding="0dp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+ <!--           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:gravity="bottom"
+                android:background="@color/white">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/border_shape_info5">
+
+                </LinearLayout>
+            </LinearLayout>
+-->
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
+

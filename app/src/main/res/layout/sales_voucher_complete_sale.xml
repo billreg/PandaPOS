@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@android:color/holo_blue_dark"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="COMPLETAR VENTA"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/sale_id_gv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID: 001"
+            android:textAlignment="center"
+            android:textSize="14dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/total_products"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/total_sale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp">
+            </TextView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp">
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_sale_type_voucher"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="16dp"
+            app:ms_padding_top="5dp"
+            android:entries="@array/type_voucher"
+            android:prompt="@string/type_voucher"
+            android:textAlignment="center" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_type_sale_voucher"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textSize="16dp"
+            app:ms_padding_top="5dp"
+            android:layout_gravity="center"
+            android:spinnerMode="dropdown"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_height="85dp">
+
+        <Button
+            android:id="@+id/complete_sale"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Completar venta"
+            android:textAlignment="center"
+            android:background="@color/sales_dialog_color"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/cancel_sale"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:text="CANCELAR"
+            android:padding="4dp"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:background="@color/sales_dialog_color"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

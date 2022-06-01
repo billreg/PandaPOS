@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/inicio3"
+        android:title="Início"/>
+
+    <item
+        android:id="@+id/navigation_inventory"
+        android:icon="@drawable/productos"
+        android:title="Inventario"/>
+
+    <item
+        android:id="@+id/navigation_sales"
+        android:icon="@drawable/carrito"
+        android:title="ventas"/>
+
+    <item
+        android:id="@+id/navigation_billing"
+        android:icon="@drawable/estadisticas"
+        android:title="Facturación"/>
+
+<!--
+    <item
+        android:id="@+id/navigation_billing3"
+        android:icon="@drawable/estadisticas"
+        android:title="Facturación"/>
+-->
+
+</menu>

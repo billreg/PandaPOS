@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".newsales.SalesCarSearchProduct">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/color_base"
+        android:layout_height="60dp">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/button_sales_search_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Buscar producto"
+            android:textSize="17dp"
+            android:theme="@style/Theme.MaterialComponents.Light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:background="@color/sales_generate_voucher_color">
+
+        <TableLayout
+            android:id="@+id/tablatitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/sales_generate_voucher_color"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/sales_generate_voucher_color">
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="120dp"
+                    android:layout_weight="0.7"
+                    android:gravity="left"
+                    android:paddingLeft="5dp"
+                    android:text="Nombre"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    ></TextView>
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Precio/Total"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"></TextView>
+
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center_horizontal"
+                    android:text="Venta"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"></TextView>
+
+                <!--       <TextView
+                           android:layout_height="match_parent"
+                           android:layout_width="wrap_content"
+                           android:layout_weight="0.5"
+                           android:gravity="center_horizontal"
+                           android:text="@string/col_price_units"
+                           android:textColor="@color/black"
+                           android:textSize="19sp"></TextView>-->
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_add_search_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+</LinearLayout>

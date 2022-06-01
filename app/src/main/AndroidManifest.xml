@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.floki">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pandaa"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity
+            android:name=".inventory.InventoryAddProduct"
+            android:exported="false" />
+        <activity
+            android:name=".newsales.NewSalesHistory"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inventory.InventoryAddSearchProduct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inventory.InventoryAdd"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newsales.SalesScanner"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newsales.SalesCarSacanner"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newsales.SalesCarSearchProduct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newsales.SalesCarAddFrequentProduct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newsales.SalesCarAddProduct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newsales.NewSaleAddToCar"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newsales.NewSalesSearchProduct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.UserDetails"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.Register"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.Login"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inventory.InventorySearchProductByBarcode"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inventory.InventorySearchProduct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inventory.InventoryAddBarcode"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inventory.ProductDetails"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.HomeShowSubcategories"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.HomeShowCategories"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

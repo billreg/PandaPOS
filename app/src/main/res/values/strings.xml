@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Panda POS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="spn_title">Elegir categoría</string>
+
+    <string-array name="dlangs">
+        <item>Gaseosas</item>
+        <item>Aguas</item>
+        <item>Bebidas energeticas</item>
+        <item>Bebidas cítricas</item>
+        <item>Cervezas</item>
+        <item>Galletas</item>
+        <item>Chocolates</item>
+        <item>Caramelos</item>
+        <item>Piqueos</item>
+
+    </string-array>
+
+    <string name="select_venta">Seleccionar</string>
+
+    <string-array name="unidad_paquete">
+        <item>Por unidad</item>
+        <item>Por paquete</item>
+    </string-array>
+
+    <string name="pay_type">Seleccionar</string>
+
+    <string-array name="pay_type">
+        <item>En efectivo</item>
+        <item>Yape</item>
+        <item>Plin</item>
+    </string-array>
+
+    <string name="voucher_type">Tipo comprobante</string>
+
+    <string-array name="voucher_type">
+        <item>Sin comprobante</item>
+        <item>Nota de venta</item>
+        <item>Boleta</item>
+        <item>Factura</item>
+    </string-array>
+
+    <string name="quentity">Tipo comprobante</string>
+
+    <string-array name="quentity">
+        <item>1X</item>
+        <item>2X</item>
+        <item>3X</item>
+        <item>4X</item>
+        <item>5X</item>
+        <item>6X</item>
+    </string-array>
+
+    <string name="properties">Tipo comprobante</string>
+    <string-array name="properties">
+        <item>Normal</item>
+        <item>1 helada</item>
+        <item>2 heladas</item>
+        <item>3 heladas</item>
+        <item>4 heladas</item>
+        <item>5 heladas</item>
+        <item>6 heladas</item>
+        <item>1 helada</item>
+        <item>2 heladas</item>
+        <item>3 heladas</item>
+        <item>4 heladas</item>
+        <item>5 heladas</item>
+        <item>6 heladas</item>
+        <item>1 helada</item>
+        <item>2 heladas</item>
+        <item>3 heladas</item>
+        <item>4 heladas</item>
+        <item>5 heladas</item>
+        <item>6 heladas</item>
+        <item>1 helada</item>
+        <item>2 heladas</item>
+        <item>3 heladas</item>
+        <item>4 heladas</item>
+        <item>5 heladas</item>
+        <item>6 heladas</item>
+
+    </string-array>
+
+    <string name="type_sele">Tipo comprobante</string>
+    <string-array name="type_sele">
+        <item>Total ventas</item>
+        <item>Por menor</item>
+        <item>Por mayor</item>
+    </string-array>
+
+    <string name="type_voucher">Tipo comprobante</string>
+    <string-array name="type_voucher">
+        <item>Nota venta</item>
+        <item>Boleta</item>
+        <item>Factura</item>
+    </string-array>
+
+
+    <dimen name="my_dimen">140dp</dimen>
+
+    <string name="bbhh">Tipo comprobante</string>
+    <string-array name="bbhh">
+        <item>0.00</item>
+        <item>0.20</item>
+        <item>0.30</item>
+        <item>0.50</item>
+    </string-array>
+
+
+</resources>
+

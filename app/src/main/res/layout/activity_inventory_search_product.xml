@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inventory.InventorySearchProduct">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/color_base"
+            android:layout_height="60dp">
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/inventory_search_product"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="Buscar producto"
+                android:textSize="17dp"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@color/color_base"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/sales_generate_voucher_color">
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:layout_weight="0.7"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="5dp"
+                        android:text="Nombre/Cantidad"
+                        android:textColor="@color/black"
+                        android:textSize="19sp"
+
+                        ></TextView>
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center_horizontal"
+                        android:text="PC/PV"
+                        android:textColor="@color/black"
+                        android:textSize="19sp"></TextView>
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center_horizontal"
+                        android:text="Estado"
+                        android:layout_gravity="right"
+                        android:paddingRight="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="19sp"></TextView>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/list_search_products"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
