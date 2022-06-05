@@ -126,7 +126,7 @@ public class ProductSalesAdapter extends BaseAdapter {
                     Consumption consumptionNew = updateConsumtion(consumption,quantity);
                     sqliteHelperJarvis.addSale(sale);
                     sqliteHelperJarvis.addConsumption(consumptionNew);
-                    Toast.makeText(context, "Venta completada", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Venta completa", Toast.LENGTH_SHORT).show();
                     salesquantity.setText(String.valueOf(0));
                     total.setText("");
                 }else {

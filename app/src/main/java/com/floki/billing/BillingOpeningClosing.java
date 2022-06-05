@@ -105,9 +105,26 @@ public class BillingOpeningClosing extends Fragment {
                 openingMoney.setText("S/"+caja.getOpeningMoney());
                 openingMoney.clearFocus();
                 cash.setText("S/"+caja.getOpeningMoney());
+
                 listPreferences.setCaja(caja);
                 settingPreferences.save(listPreferences);
-                openUp.setEnabled(false);
+            }
+        });
+
+        close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                openingMoney.setText("");
+                cash.setText("S/0.00");
+                totalSale.setText("S/0.00");
+                closeMoney.setText("S/0.00");
+
+
+                listPreferences.setCaja(null);
+                settingPreferences.save(listPreferences);
+
+
             }
         });
 

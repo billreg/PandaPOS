@@ -24,11 +24,11 @@
         android:layout_gravity="bottom"
         android:padding="0dp"
         android:background="@color/color_base"
+        app:menu="@menu/main_menu"
         app:labelVisibilityMode="labeled"
         app:itemBackground="@color/color_base"
-        app:itemTextColor="@color/color_icon_main_menu"
-        app:itemIconTint="@color/color_icon_main_menu"
-        app:menu="@menu/main_menu">
+        app:itemTextColor="@animator/bottom_nav_color"
+        app:itemIconTint="@animator/bottom_nav_color">
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 

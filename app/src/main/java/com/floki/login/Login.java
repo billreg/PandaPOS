@@ -121,8 +121,8 @@ public class Login extends AppCompatActivity {
                                 startActivity(intent);
                                 Toast.makeText(getBaseContext(), "Início de sesion exitoso", Toast.LENGTH_SHORT).show();
                             }else {
-                                sqliteHelperJarvis.deleteDataBase(getBaseContext());
                                 settingPreferences.delete();
+                                sqliteHelperJarvis.deleteDataBase(getBaseContext());
 
                                 Employee employeeNew = employeeController.getEmployeeByUsername(authenticationRequest.getUsername());
                                 Business business = businessController.getBusinessById(employeeNew.getEmployeeId());

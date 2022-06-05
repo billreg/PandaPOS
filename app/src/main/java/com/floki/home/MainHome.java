@@ -71,13 +71,16 @@ public class MainHome extends Fragment {
 
         user = (Chip) view.findViewById(R.id.user);
         TextView categories = view.findViewById(R.id.categories);
+        TextView typeBusiness = view.findViewById(R.id.type_business);
         //TextView marcar =  view.findViewById(R.id.marcas);
-        TextView categoriesrt =  view.findViewById(R.id.categoriesrt);
+        //TextView categoriesrt =  view.findViewById(R.id.categoriesrt);
 
 
         settingPreferences = new SettingPreferences(getContext());
         listPreferences = settingPreferences.getListPreferences();
         Business business = listPreferences.getBusiness();
+
+        typeBusiness.setText(business.getBusinessType());
 
         EntidadHome entidadHome = new EntidadHome(options[0], ">");
         arrayEntidad.add(entidadHome);
@@ -108,13 +111,13 @@ public class MainHome extends Fragment {
                 getContext().startActivity(intent);
             }
         });*/
-        categoriesrt.setOnClickListener(new View.OnClickListener() {
+/*        categoriesrt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getContext(), InventoryAdd.class);
                 getContext().startActivity(intent);
             }
-        });
+        });*/
 
         return view;
     }

@@ -7,10 +7,12 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import com.floki.entity.Business;
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     private ListPreferences listPreferences;
 
 
+    @SuppressLint("RestrictedApi")
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,15 +68,19 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                     if (item.getItemId() == R.id.navigation_home) {
+                        item.setChecked(true);
                         showSelectedFragment(new MainHome());
                     }
                     if (item.getItemId() == R.id.navigation_inventory) {
+                        item.setChecked(true);
                         showSelectedFragment(new MainInventory());
                     }
                     if (item.getItemId() == R.id.navigation_sales) {
+                        item.setChecked(true);
                         showSelectedFragment(new MainNewSales());
                     }
                     if (item.getItemId() == R.id.navigation_billing) {
+                        item.setChecked(true);
                         showSelectedFragment(new MainBilling());
                     }
                     return false;
@@ -81,9 +88,10 @@ public class MainActivity extends AppCompatActivity {
             });
             if (savedInstanceState == null) {
                 FragmentManager fragmentManager = getSupportFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.show_fragment, new MainBilling()).commit();
+                fragmentManager.beginTransaction().replace(R.id.show_fragment, new MainHome()).commit();
             }
         }
+
     }
 
     private void showSelectedFragment(Fragment fragment) {
